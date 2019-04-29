@@ -70,6 +70,7 @@ const routes = [
   ],
   providers: [
     AuthService,
+    AuthGuard,
     NotesService
   ],
   bootstrap: [AppComponent]
